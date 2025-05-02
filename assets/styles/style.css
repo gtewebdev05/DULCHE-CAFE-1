@@ -1,0 +1,51 @@
+@import url(btns.css);
+
+@import "navbar.css";
+@import "hero-banner.css";
+@import "footer.css";
+@import "card.css";
+@import "category.css";
+@import "about.css";
+@import "purchase.css";
+@import "thxpurchase.css";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+html, body {
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background: linear-gradient(to bottom, #f3eee8, #e5d4c0);
+    color: #f3eee8;
+    }
+.card-nav {
+    font-size: 80px;
+    text-align: center;
+    margin-top: 4rem;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+p {
+    font-size: 20px;
+    font-weight: 50;
+    color: #3e2f23;
+}
+h4 {
+    color: #3e2f23;
+}
+h1 {
+    color: #3e2f23;
+}
+a:hover {
+    color:#3e2f23;
+}
+h3 {
+    color: #3e2f23;
+}

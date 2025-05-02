@@ -1,0 +1,52 @@
+.btns-container {
+    height: 50px;
+    gap: 200px;
+    justify-content: start;
+    
+}
+.primary-btn {
+   border: 2px solid #002c1d;
+   border-radius: 5px;
+   background-color: #6f4e37;
+   color: #fff;
+   font-weight: bold;
+   font-size: medium;
+   width: 140px;
+   height: 45px;
+}
+.secondary-btn {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: #c7a17a;
+    color: #3e2f23;
+    font-weight: bold;
+    font-size: medium;
+    width: 140px;
+    height: 45px;
+
+}
+.primary-btn:hover {
+    background-color: #c7a17a;
+    color: #3e2f23;
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.secondary-btn:hover {
+    background-color: #6f4e37;
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px){
+    .btns-container {
+        height: 50px;
+        gap: 100px;
+        justify-content: center;
+        
+    }
+}
+    

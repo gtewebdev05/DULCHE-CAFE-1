@@ -1,0 +1,57 @@
+#hero-banner {
+    display: flex;
+    align-items: center;
+    gap: 250px;
+    padding-bottom: 50px;
+    padding-top: 110px;
+  }
+.hero {
+    max-width: 500px;
+}
+.hero-title h1{
+    font-size: 80px;
+    color: #6f4e37;
+}
+
+.hero p {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-weight: 50;
+}
+.btns-container {
+    display: flex;
+    flex-direction: row;
+}
+.hero-mainimage img{
+    background-color: #c7a17a;
+    border-radius: 50%;
+    width: 500px;
+    margin-top: 30px;
+    height: auto;
+}
+@media only screen and (max-width: 768px) {
+    #hero-banner {
+      flex-direction: column-reverse;
+      gap: 20px;
+    }
+  
+    .hero {
+      max-width: 100%;
+    }
+  
+    .hero .btn-container {
+      flex-direction: column;
+    }
+    .hero h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+    .hero-mainimage img {
+        width: 300px;
+    }
+    .hero p {
+        text-align: center;
+    }
+  }
+
