@@ -1,6 +1,6 @@
 
 .hero-title1 h1 {
-    color: rgb(230, 16, 52);
+    color: rgb(95, 49, 0);
     font-size: 60px;
 }
 
@@ -39,8 +39,8 @@
 .hero-image img{
     background-color: #c7a17a;
     border-radius: 50%;
-    height: 500px;
-    width: 500px;
+    height: 250px;
+    width: 250px;
     object-fit: contain;
 }
 @media only screen and (max-width: 768px) {

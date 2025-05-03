@@ -35,6 +35,7 @@
     border-radius: 8px;
     overflow: hidden;
     width: 300px;
+    height: 450px;
 }
 .about-card img{
     width: 100%;
@@ -52,24 +53,10 @@
     line-height: 1.6;
     color: #ccc
 }
-.opening-hours{
-    background-color: #6f4e37;
-    border-radius: 4px;
-    padding: 20px;
-    max-width: 300px;
-    color: #fff;
 
-}
-.opening-hours h2{
-    font-size: 20px;
-    text-transform: uppercase;
-    border-bottom: 2px solid;
-    padding-bottom: 10px;
-    margin-bottom: 10px
-}
 .hours-list{
     list-style: none;
-    padding: 0;
+    padding: 5px;
 }
 .hours-list li{
     display: flex;
@@ -78,6 +65,7 @@
     border-bottom: 1px solid #333;
 }
 .about-call p{
+    text-align: center;
     margin-top: 20px;
     font-weight: bold;
     color: #fff;
