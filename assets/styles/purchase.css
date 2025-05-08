@@ -38,10 +38,14 @@
 .purchase-btns {
     text-align: center;
 }
+.form-group textarea {
+    border: 3px solid rgb(85, 84, 84);
+    border-radius: 5px;
+    height: 35px;
+}
 .form-group:hover {
-    color: #3e2f23;
     transform: scale(1.01);
-    transition: 0.2s;
+    transition: 0.2s ease-in-out;
 }
 @media only screen and (max-width: 768px) {
     .purchase-container {
