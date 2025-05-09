@@ -24,6 +24,7 @@ html, body {
     scroll-behavior: smooth;
     background: linear-gradient(to bottom, #f3eee8, #e5d4c0);
     color: #f3eee8;
+    height: auto;
     }
 .container {
     max-width: 1280px;
@@ -45,4 +46,7 @@ a:hover {
 }
 h3 {
     color: #3e2f23;
+}
+#services-section{
+ margin-top: 100px;
 }
